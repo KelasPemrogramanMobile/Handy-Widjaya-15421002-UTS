@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hans.prj_uts_handywidjaya_15421002.menu">
+
+
+            <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Mahasiswa"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/isiNama"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Nama Mahasiswa"
+                android:inputType="textNoSuggestions"
+                android:maxLines="1"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masukan NPM"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/isiNpm"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="NPM"
+                android:inputType="textNoSuggestions"
+                android:maxLines="1"
+                android:textColor="@color/colorAccent" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tugas"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/isiTtl"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Tugas"
+                android:inputType="textNoSuggestions"
+                android:maxLines="1"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quis"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/isiAgama"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Quis"
+                android:inputType="textNoSuggestions"
+                android:maxLines="1"
+                android:textColor="@color/colorAccent" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UTS"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/isiFakultas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="UTS"
+                android:inputType="textNoSuggestions"
+                android:maxLines="1"
+                android:textColor="@color/colorAccent" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UAS"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/isiProdi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="UAS"
+                android:inputType="textNoSuggestions"
+                android:maxLines="1"
+                android:textColor="@color/colorAccent" />
+
+
+            <Button
+                android:id="@+id/btnambildata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorAccent"
+                android:text="Proses"
+                android:textColor="@android:color/background_light" />
+
+
+        </LinearLayout>
+</RelativeLayout>
